@@ -1,0 +1,38 @@
+# ==========================================
+# DADOS E MODELOS (Prevenção de arquivos pesados/sensíveis)
+# ==========================================
+# Ignora arquivos de dados brutos e processados na pasta data
+data/*.csv
+data/*.parquet
+data/*.xlsx
+data/*.json
+data/*.zip
+
+# Ignora binários de modelos treinados para não sobrecarregar o git
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.model
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# PYTHON E AMBIENTES VIRTUAIS
+# ==========================================
+# Cache e arquivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente Virtual
+venv/
+
+# Arquivos de credenciais e variáveis de ambiente
+.env
+.env.*
+secrets.json
