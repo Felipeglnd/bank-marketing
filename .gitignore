@@ -2,11 +2,11 @@
 # DADOS E MODELOS (Prevenção de arquivos pesados/sensíveis)
 # ==========================================
 # Ignora arquivos de dados brutos e processados na pasta data
-data/*.csv
-data/*.parquet
-data/*.xlsx
-data/*.json
-data/*.zip
+data/raw/*.csv
+data/raw/*.parquet
+data/raw/*.xlsx
+data/raw/*.json
+data/raw/*.zip
 
 # Ignora binários de modelos treinados para não sobrecarregar o git
 *.pkl
