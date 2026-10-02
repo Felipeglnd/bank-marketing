@@ -8,6 +8,12 @@ data/raw/*.xlsx
 data/raw/*.json
 data/raw/*.zip
 
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.xlsx
+data/processed/*.json
+data/processed/*.zip
+
 # Ignora binários de modelos treinados para não sobrecarregar o git
 *.pkl
 *.joblib
